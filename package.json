@@ -1,0 +1,32 @@
+{
+  "name": "medimitra-monorepo",
+  "version": "1.0.0",
+  "description": "MediMitra - AI-Powered Personal Health Copilot (Phase 1)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/free-ports.js",
+    "dev": "node scripts/free-ports.js && concurrently -k -n \"BACKEND,FRONTEND\" -c \"cyan.bold,magenta.bold\" \"python -m uvicorn app.main:app --reload --port 8000 --app-dir backend\" \"npm --prefix frontend run dev\"",
+    "start": "npm run dev",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "backend:dev": "node scripts/free-ports.js && python -m uvicorn app.main:app --reload --port 8000 --app-dir backend",
+    "server": "uvicorn server:app --reload --port 8000",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "test": "npm --prefix frontend test",
+    "test:frontend": "npm --prefix frontend test",
+    "test:backend": "python backend/test_backend.py"
+  },
+  "keywords": [
+    "medimitra",
+    "health",
+    "gemini",
+    "fastapi",
+    "react"
+  ],
+  "author": "MediMitra Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}

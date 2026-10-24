@@ -1,0 +1,30 @@
+# ========================================================
+# MediMitra AI - Production & Development Dependencies
+# Install via: pip install -r requirements.txt
+# ========================================================
+
+# FastAPI Backend & Web Services
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+python-dotenv>=1.0.1
+python-multipart>=0.0.12
+sqlalchemy>=2.0.36
+google-genai>=0.1.1
+pillow>=11.0.0
+httpx>=0.28.0
+pypdf>=5.0.0
+reportlab>=4.2.0
+qrcode>=7.4.0
+pytest>=8.0.0
+
+# AI4Bharat Indic-Parler-TTS & Hugging Face Platform
+# Usage:
+#   huggingface-cli login          # accept the model's conditions once
+#   uvicorn server:app --port 8000
+huggingface-hub>=0.24.0
+torch>=2.2.0
+transformers>=4.44.0
+soundfile>=0.12.1
+parler-tts>=0.2.1

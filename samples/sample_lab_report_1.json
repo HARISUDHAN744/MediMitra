@@ -1,0 +1,68 @@
+{
+  "document_type": "lab_report",
+  "patient_name": "Priya Venkatesh",
+  "doctor_name": "Dr. Ramesh Kulkarni, Pathologist",
+  "hospital_or_clinic": "Metropolis Diagnostic Center, Chennai",
+  "document_date": "2026-09-28",
+  "diagnoses": [
+    "Mild Microcytic Anemia",
+    "Borderline Hyperlipidemia"
+  ],
+  "medicines": [],
+  "tests": [
+    {
+      "name": "Hemoglobin (Hb)",
+      "value": "10.8",
+      "unit": "g/dL",
+      "reference_range": "12.0 - 15.5",
+      "interpretation": "Low (Mild Anemia)"
+    },
+    {
+      "name": "Total White Blood Cell Count (WBC)",
+      "value": "6800",
+      "unit": "/cumm",
+      "reference_range": "4000 - 11000",
+      "interpretation": "Normal"
+    },
+    {
+      "name": "Platelet Count",
+      "value": "240000",
+      "unit": "/cumm",
+      "reference_range": "150000 - 450000",
+      "interpretation": "Normal"
+    },
+    {
+      "name": "Fasting Blood Glucose",
+      "value": "94",
+      "unit": "mg/dL",
+      "reference_range": "70 - 99",
+      "interpretation": "Normal"
+    },
+    {
+      "name": "Total Cholesterol",
+      "value": "218",
+      "unit": "mg/dL",
+      "reference_range": "< 200",
+      "interpretation": "Borderline High"
+    },
+    {
+      "name": "Serum Creatinine",
+      "value": "0.85",
+      "unit": "mg/dL",
+      "reference_range": "0.6 - 1.2",
+      "interpretation": "Normal"
+    }
+  ],
+  "confidence_scores": {
+    "document_type": 0.99,
+    "patient_name": 0.97,
+    "doctor_name": 0.94,
+    "hospital_or_clinic": 0.96,
+    "document_date": 0.98,
+    "diagnoses": 0.88,
+    "medicines": 1.0,
+    "tests": 0.98,
+    "overall": 0.96
+  },
+  "notes": "Patient advised to consult physician for dietary iron supplementation and lipid management."
+}

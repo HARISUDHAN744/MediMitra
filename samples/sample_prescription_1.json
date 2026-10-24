@@ -1,0 +1,47 @@
+{
+  "document_type": "prescription",
+  "patient_name": "Rajesh Sharma",
+  "doctor_name": "Dr. Ananya Iyer, MD (Internal Medicine)",
+  "hospital_or_clinic": "Apollo Clinic, Indiranagar, Bengaluru",
+  "document_date": "2026-09-15",
+  "diagnoses": [
+    "Essential Hypertension",
+    "Type 2 Diabetes Mellitus"
+  ],
+  "medicines": [
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "Twice daily (after meals)",
+      "duration": "30 days",
+      "instructions": "Take orally with or after food to minimize gastrointestinal upset"
+    },
+    {
+      "name": "Telmisartan",
+      "dosage": "40 mg",
+      "frequency": "Once daily (morning)",
+      "duration": "30 days",
+      "instructions": "Take with water in the morning with or without food"
+    },
+    {
+      "name": "Atorvastatin",
+      "dosage": "10 mg",
+      "frequency": "Once daily (at bedtime)",
+      "duration": "30 days",
+      "instructions": "Take at night before going to sleep"
+    }
+  ],
+  "tests": [],
+  "confidence_scores": {
+    "document_type": 0.98,
+    "patient_name": 0.95,
+    "doctor_name": 0.96,
+    "hospital_or_clinic": 0.94,
+    "document_date": 0.99,
+    "diagnoses": 0.92,
+    "medicines": 0.97,
+    "tests": 1.0,
+    "overall": 0.96
+  },
+  "notes": "Follow-up scheduled after 30 days with fasting blood sugar and HbA1c test reports."
+}

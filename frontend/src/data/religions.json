@@ -1,0 +1,29 @@
+{
+  "globalOptions": [
+    { "id": "hinduism", "name": "Hinduism" },
+    { "id": "islam", "name": "Islam" },
+    { "id": "christianity", "name": "Christianity" },
+    { "id": "sikhism", "name": "Sikhism" },
+    { "id": "buddhism", "name": "Buddhism" },
+    { "id": "jainism", "name": "Jainism" },
+    { "id": "judaism", "name": "Judaism" },
+    { "id": "bahai", "name": "Bahá'í Faith" },
+    { "id": "zoroastrianism", "name": "Zoroastrianism" },
+    { "id": "shinto", "name": "Shinto" },
+    { "id": "taoism", "name": "Taoism" },
+    { "id": "indigenous", "name": "Indigenous / Traditional beliefs" },
+    { "id": "secular", "name": "Atheist / Agnostic / Secular" }
+  ],
+  "countryPriority": {
+    "IN": ["hinduism", "islam", "christianity", "sikhism", "buddhism", "jainism", "zoroastrianism"],
+    "US": ["christianity", "secular", "judaism", "islam", "buddhism", "hinduism"],
+    "GB": ["christianity", "secular", "islam", "hinduism", "sikhism", "judaism"],
+    "CA": ["christianity", "secular", "islam", "hinduism", "sikhism", "judaism", "buddhism"],
+    "AU": ["christianity", "secular", "islam", "buddhism", "hinduism", "judaism"],
+    "DE": ["christianity", "secular", "islam", "judaism", "buddhism"],
+    "AE": ["islam", "christianity", "hinduism", "buddhism", "sikhism"],
+    "SG": ["buddhism", "christianity", "islam", "taoism", "hinduism", "secular"],
+    "MY": ["islam", "buddhism", "christianity", "hinduism", "taoism"]
+  },
+  "privacyDisclaimer": "Used only to personalize cultural, dietary, and care preferences. Stored locally encrypted and never shared without your permission."
+}

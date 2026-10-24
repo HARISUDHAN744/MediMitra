@@ -1,0 +1,144 @@
+{
+  "nationalOfficial": [
+    {
+      "id": "amb-112-in",
+      "code": "112",
+      "name": "Emergency Response Support System (ERSS)",
+      "phone": "112",
+      "description": "Unified pan-India emergency number for police, fire, medical ambulance, and disaster response dispatch.",
+      "operatingHours": "24/7 (365 days)",
+      "coverage": "All Indian States & Union Territories",
+      "charge": "Free of charge / Toll-free",
+      "source": "Ministry of Home Affairs (MHA), Government of India",
+      "lastVerified": "2026-10-20"
+    },
+    {
+      "id": "amb-108-in",
+      "code": "108",
+      "name": "108 National Emergency Ambulance Service",
+      "phone": "108",
+      "description": "Free public emergency response service providing primary and advanced life support ambulances for trauma, accidents, and acute emergencies.",
+      "operatingHours": "24/7 (365 days)",
+      "coverage": "Available across 23+ Indian states & UTs (GVK EMRI / ZHL Public-Private Partnerships)",
+      "charge": "Free of charge (Government funded)",
+      "source": "National Health Mission (NHM), Ministry of Health & Family Welfare",
+      "lastVerified": "2026-10-20"
+    },
+    {
+      "id": "amb-102-in",
+      "code": "102",
+      "name": "102 Janani Shishu Suraksha Karyakram (JSSK)",
+      "phone": "102",
+      "description": "Free transport service dedicated to pregnant mothers, deliveries, post-natal emergencies, and sick neonates.",
+      "operatingHours": "24/7 (365 days)",
+      "coverage": "Pan-India Rural & Urban Community Health Centers",
+      "charge": "Free of charge",
+      "source": "Maternal Health Division, MoHFW, Government of India",
+      "lastVerified": "2026-10-20"
+    }
+  ],
+  "regionalAndPrivate": [
+    {
+      "id": "amb-cats-delhi",
+      "name": "Centralized Accident & Trauma Services (CATS) Delhi",
+      "phone": "1099",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "type": "State Government Public Ambulance Service",
+      "website": "https://delhi.gov.in",
+      "operatingHours": "24/7",
+      "coverage": "National Capital Territory of Delhi",
+      "source": "Government of NCT of Delhi Health & Family Welfare",
+      "lastVerified": "2026-10-20"
+    },
+    {
+      "id": "amb-apollo-lifeline",
+      "name": "Apollo Emergency Response Fleet (1066)",
+      "phone": "1066",
+      "city": "National Multi-City",
+      "state": "Pan-India",
+      "type": "Hospital Network Emergency Service",
+      "website": "https://www.apollohospitals.com",
+      "operatingHours": "24/7",
+      "coverage": "Metropolitan cities with Apollo presence",
+      "source": "Apollo Hospitals Enterprise Limited Public Emergency Directory",
+      "lastVerified": "2026-10-20"
+    },
+    {
+      "id": "amb-emri-green",
+      "name": "GVK EMRI Emergency Ambulance Services",
+      "phone": "108",
+      "city": "Hyderabad / Multi-State",
+      "state": "Telangana, AP, Gujarat, Karnataka",
+      "type": "Not-for-profit Public-Private Partnership",
+      "website": "https://www.emri.in",
+      "operatingHours": "24/7",
+      "coverage": "Participating state territories",
+      "source": "GVK Emergency Management and Research Institute",
+      "lastVerified": "2026-10-20"
+    },
+    {
+      "id": "amb-redcross-in",
+      "name": "Indian Red Cross Emergency Fleet",
+      "phone": "011-23716441",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "type": "Humanitarian NGO Ambulance",
+      "website": "https://www.indianredcross.org",
+      "operatingHours": "24/7",
+      "coverage": "NCR and designated state branches",
+      "source": "Indian Red Cross Society Operations Register",
+      "lastVerified": "2026-10-20"
+    }
+  ],
+  "airAmbulance": [
+    {
+      "id": "air-icatt",
+      "name": "ICATT Air Ambulance",
+      "phone": "+91-97011-11156",
+      "website": "https://icatt.in",
+      "baseCities": ["Bengaluru", "Hyderabad", "Chennai", "Kochi"],
+      "aircraftType": "Fixed-wing Air Ambulance & Helicopter EMS (HEMS)",
+      "capabilities": "ECMO transport, Critical Pediatric / Neonatal ICU, Multi-organ retrieval",
+      "advisory": "Not endorsed. Verify directly. Costs vary by distance, aircraft charter, and intensive care physician escort requirements.",
+      "source": "Directorate General of Civil Aviation (DGCA) Registered Air Ambulance Operators",
+      "lastVerified": "2026-10-20"
+    },
+    {
+      "id": "air-rescuers",
+      "name": "Air Rescuers India",
+      "phone": "+91-98700-01118",
+      "website": "https://www.airrescuers.com",
+      "baseCities": ["Mumbai", "Delhi", "Kolkata", "Bengaluru"],
+      "aircraftType": "King Air B200 / Citation Jet Air Ambulances",
+      "capabilities": "Ventilator support, advanced cardiac life support, international repatriation",
+      "advisory": "Not endorsed. Verify directly. Costs vary depending on flight clearance, airport ground handling, and medical consumables.",
+      "source": "Public Aeromedical Operator Directory",
+      "lastVerified": "2026-10-20"
+    },
+    {
+      "id": "air-flaps",
+      "name": "Flaps Aviation Pvt Ltd",
+      "phone": "+91-98214-01111",
+      "website": "https://flapsaviation.com",
+      "baseCities": ["Mumbai", "Ahmedabad", "New Delhi"],
+      "aircraftType": "Dedicated ICU Air Ambulance Aircraft",
+      "capabilities": "Bed-to-bed transfer, specialized trauma and stroke aeromedical retrieval",
+      "advisory": "Not endorsed. Verify directly. Costs vary. Confirm pressurization profile and oxygen availability before booking.",
+      "source": "Aviation Safety & Air Ambulance Public Listing",
+      "lastVerified": "2026-10-20"
+    },
+    {
+      "id": "air-medanta",
+      "name": "Medanta Flying Doctors India",
+      "phone": "+91-124-4141414",
+      "website": "https://www.medanta.org",
+      "baseCities": ["Gurugram", "New Delhi"],
+      "aircraftType": "Dedicated Flying ICU with Medanta Super-Speciality Team",
+      "capabilities": "Intra-aortic balloon pump (IABP), ECMO, specialized neuro-trauma team",
+      "advisory": "Not endorsed. Verify directly. Costs vary. Verify availability and airport runway requirements.",
+      "source": "Medanta Institute of Emergency & Trauma Care Directory",
+      "lastVerified": "2026-10-20"
+    }
+  ]
+}

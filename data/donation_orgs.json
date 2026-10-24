@@ -1,0 +1,122 @@
+[
+  {
+    "id": "notto-in",
+    "name": "NOTTO (National Organ and Tissue Transplant Organisation)",
+    "country": "India",
+    "type": "Government",
+    "description": "Apex government organization coordinating procurement, allocation, and registry of human organs and tissues under the Ministry of Health and Family Welfare.",
+    "website": "https://notto.mohfw.gov.in",
+    "domain": "notto.mohfw.gov.in",
+    "helpline": "1800-11-4770",
+    "source": "Ministry of Health and Family Welfare, Govt. of India",
+    "lastVerified": "2026-10-20"
+  },
+  {
+    "id": "eraktkosh-in",
+    "name": "e-RaktKosh Blood Portal",
+    "country": "India",
+    "type": "Government",
+    "description": "Centralized initiative by MoHFW connecting, digitizing, and streamlining blood donation workflows and real-time blood stock availability across Indian blood banks.",
+    "website": "https://eraktkosh.mohfw.gov.in",
+    "domain": "eraktkosh.mohfw.gov.in",
+    "helpline": "011-23061463",
+    "source": "MoHFW & Centre for Development of Advanced Computing (C-DAC)",
+    "lastVerified": "2026-10-20"
+  },
+  {
+    "id": "nbtc-in",
+    "name": "National Blood Transfusion Council (NBTC)",
+    "country": "India",
+    "type": "Government",
+    "description": "Policy formulating apex body for blood transfusion services in India, ensuring voluntary, safe, and quality blood collection standards.",
+    "website": "https://nbtc.naco.gov.in",
+    "domain": "nbtc.naco.gov.in",
+    "helpline": "011-43509999",
+    "source": "National AIDS Control Organisation (NACO), MoHFW",
+    "lastVerified": "2026-10-20"
+  },
+  {
+    "id": "ircs-in",
+    "name": "Indian Red Cross Society",
+    "country": "India",
+    "type": "NGO",
+    "description": "Voluntary humanitarian organisation operating accredited blood banks, nationwide donation camps, and disaster relief services across India.",
+    "website": "https://www.indianredcross.org",
+    "domain": "indianredcross.org",
+    "helpline": "011-23716441",
+    "source": "Indian Red Cross Society National Headquarters",
+    "lastVerified": "2026-10-20"
+  },
+  {
+    "id": "mohan-in",
+    "name": "MOHAN Foundation",
+    "country": "India",
+    "type": "NGO",
+    "description": "Pioneering non-profit organization promoting deceased organ donation, transplant coordination training, and grief counseling for donor families.",
+    "website": "https://www.mohanfoundation.org",
+    "domain": "mohanfoundation.org",
+    "helpline": "1800-103-7100",
+    "source": "MOHAN Foundation Public Charitable Trust",
+    "lastVerified": "2026-10-20"
+  },
+  {
+    "id": "shatayu-in",
+    "name": "Shatayu - Gift of Life",
+    "country": "India",
+    "type": "NGO",
+    "description": "Public trust dedicated to increasing awareness about organ donation and honoring donor families across Western India.",
+    "website": "https://shatayu.org.in",
+    "domain": "shatayu.org.in",
+    "helpline": "+91-99099-50444",
+    "source": "Govindbhai C. Patel Foundation / Shatayu",
+    "lastVerified": "2026-10-20"
+  },
+  {
+    "id": "organdonor-us",
+    "name": "OrganDonor.gov",
+    "country": "United States",
+    "type": "Government",
+    "description": "Official U.S. Government information source for organ and tissue donation, state registries, and national transplant policies.",
+    "website": "https://www.organdonor.gov",
+    "domain": "organdonor.gov",
+    "helpline": "1-888-275-4772",
+    "source": "Health Resources and Services Administration (HRSA), HHS",
+    "lastVerified": "2026-10-20"
+  },
+  {
+    "id": "nhsbt-uk",
+    "name": "NHS Blood and Transplant",
+    "country": "United Kingdom",
+    "type": "Government",
+    "description": "Special Health Authority managing the NHS Organ Donor Register, blood donation campaigns, and organ matching across the UK.",
+    "website": "https://www.organdonation.nhs.uk",
+    "domain": "organdonation.nhs.uk",
+    "helpline": "0300-123-23-23",
+    "source": "National Health Service (NHS) Blood and Transplant",
+    "lastVerified": "2026-10-20"
+  },
+  {
+    "id": "donatelife-au",
+    "name": "DonateLife Australia",
+    "country": "Australia",
+    "type": "Government",
+    "description": "Australian Government agency leading the national program to optimize organ and tissue donation for transplantation across all states.",
+    "website": "https://www.donatelife.gov.au",
+    "domain": "donatelife.gov.au",
+    "helpline": "1800-777-203",
+    "source": "Australian Organ and Tissue Authority (OTA)",
+    "lastVerified": "2026-10-20"
+  },
+  {
+    "id": "cbs-ca",
+    "name": "Canadian Blood Services",
+    "country": "Canada",
+    "type": "NGO",
+    "description": "National non-profit charitable organisation managing blood, plasma, stem cells, and organ/tissue donation coordination across Canada (excl. Quebec).",
+    "website": "https://www.blood.ca",
+    "domain": "blood.ca",
+    "helpline": "1-888-2-DONATE",
+    "source": "Canadian Blood Services Authority",
+    "lastVerified": "2026-10-20"
+  }
+]

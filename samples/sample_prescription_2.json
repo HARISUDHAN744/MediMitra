@@ -1,0 +1,55 @@
+{
+  "document_type": "prescription",
+  "patient_name": "Arjun Mehta",
+  "doctor_name": "Dr. Sunita Deshmukh, MD (Pulmonology)",
+  "hospital_or_clinic": "Fortis Hospital, Bannerghatta Road, Bengaluru",
+  "document_date": "2026-10-02",
+  "diagnoses": [
+    "Acute Bronchitis",
+    "Allergic Rhinitis"
+  ],
+  "medicines": [
+    {
+      "name": "Amoxicillin + Clavulanic Acid (Augmentin 625)",
+      "dosage": "625 mg",
+      "frequency": "Twice daily",
+      "duration": "5 days",
+      "instructions": "Take after meals. Complete full 5-day course."
+    },
+    {
+      "name": "Levocetirizine + Montelukast",
+      "dosage": "5 mg / 10 mg",
+      "frequency": "Once daily (night)",
+      "duration": "10 days",
+      "instructions": "Take at night before sleep"
+    },
+    {
+      "name": "Paracetamol (Dolo 650)",
+      "dosage": "650 mg",
+      "frequency": "As needed (SOS, max 3 times daily)",
+      "duration": "3 days",
+      "instructions": "Take only if body temperature exceeds 100°F or body ache occurs"
+    }
+  ],
+  "tests": [
+    {
+      "name": "Chest X-Ray (PA View)",
+      "value": "Pending",
+      "unit": "",
+      "reference_range": "Normal lung fields",
+      "interpretation": "Advised if cough persists > 7 days"
+    }
+  ],
+  "confidence_scores": {
+    "document_type": 0.97,
+    "patient_name": 0.94,
+    "doctor_name": 0.96,
+    "hospital_or_clinic": 0.98,
+    "document_date": 0.95,
+    "diagnoses": 0.91,
+    "medicines": 0.96,
+    "tests": 0.89,
+    "overall": 0.94
+  },
+  "notes": "Drink warm fluids, steam inhalation twice daily. Review after 5 days if symptoms persist."
+}

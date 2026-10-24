@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #FFFFFF;
+    color: #0F172A;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Accessible form elements with clean white background and crisp borders */
+  select, input, textarea {
+    background-color: #FFFFFF;
+    color: #0F172A;
+    border-color: #CBD5E1;
+  }
+
+  select option {
+    background-color: #FFFFFF;
+    color: #0F172A;
+  }
+}
+
+/* Clean Clinical Medical Background (#FFFFFF base with light blue accents) */
+.cyber-bg, .medical-bg {
+  background-color: #F8FAFC;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(14, 165, 233, 0.12) 0%, transparent 60%),
+    radial-gradient(circle at 10% 40%, rgba(56, 189, 248, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 90% 60%, rgba(2, 132, 199, 0.06) 0%, transparent 50%),
+    linear-gradient(rgba(14, 165, 233, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(14, 165, 233, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 36px 36px, 36px 36px;
+  background-position: 0 0, 0 0, 0 0, -1px -1px, -1px -1px;
+}
+
+/* Light Blue Navigation & Header */
+.bg-nav-primary {
+  background-color: #E0F2FE;
+  color: #0369A1;
+  border-bottom: 1px solid #BAE6FD;
+}
+
+/* Secondary Slate Subheadings & Accents */
+.text-slate-secondary {
+  color: #0284C7;
+}
+
+.border-slate-secondary {
+  border-color: #BAE6FD;
+}
+
+/* CTA Accent Coral for Book Appointment and Action Triggers */
+.btn-cta, .btn-coral {
+  background-color: #D9534F;
+  color: #FFFFFF;
+  font-weight: 700;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 14px rgba(217, 83, 79, 0.28);
+}
+
+.btn-cta:hover, .btn-coral:hover {
+  background-color: #C9302C;
+  box-shadow: 0 6px 20px rgba(217, 83, 79, 0.4);
+  transform: translateY(-1px);
+}
+
+/* Clean Clinical Cards */
+.glass-cyber, .card-medical {
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #BAE6FD;
+  box-shadow: 0 4px 20px -2px rgba(14, 165, 233, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.03);
+}
+
+.glass-emerald {
+  background: rgba(240, 253, 244, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #BBF7D0;
+  box-shadow: 0 4px 20px -2px rgba(16, 185, 129, 0.08);
+}
+
+.glass-purple {
+  background: rgba(240, 249, 255, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #BAE6FD;
+  box-shadow: 0 4px 20px -2px rgba(14, 165, 233, 0.08);
+}
+
+/* Text Utilities for Contrast & Readability */
+.neon-text-cyan {
+  color: #0284C7;
+}
+
+.neon-text-emerald {
+  color: #059669;
+}
+
+.neon-text-purple {
+  color: #0284C7;
+}
+
+/* Custom Clean Medical Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F0F9FF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BAE6FD;
+  border-radius: 9999px;
+  border: 1px solid #E0F2FE;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0284C7;
+}
+
+/* Audio Waveform Equalizer Bar */
+.equalizer-bar {
+  background: linear-gradient(180deg, #38BDF8 0%, #0284C7 100%);
+  border-radius: 9999px;
+  box-shadow: 0 0 8px rgba(14, 165, 233, 0.4);
+}

@@ -1,0 +1,253 @@
+{
+  "IN": {
+    "country": "India",
+    "iso2": "IN",
+    "iso3": "IND",
+    "phoneCode": "+91",
+    "emergency": {
+      "police": "112",
+      "ambulance": "108",
+      "maternal": "102",
+      "womenHelpline": "1091",
+      "mentalHealth": "14416"
+    },
+    "healthMinistry": {
+      "name": "Ministry of Health and Family Welfare (MoHFW)",
+      "url": "https://mohfw.gov.in",
+      "source": "Government of India Official Portal",
+      "lastVerified": "2026-10-20"
+    },
+    "digitalHealth": {
+      "name": "Ayushman Bharat Digital Mission (ABDM / ABHA)",
+      "url": "https://abdm.gov.in",
+      "description": "National digital health ecosystem creating seamless digital health IDs (ABHA) and health record exchange across healthcare providers.",
+      "source": "National Health Authority (NHA)",
+      "lastVerified": "2026-10-20"
+    },
+    "drugRegulator": {
+      "name": "Central Drugs Standard Control Organisation (CDSCO)",
+      "url": "https://cdsco.gov.in",
+      "source": "MoHFW Directorate General of Health Services",
+      "lastVerified": "2026-10-20"
+    },
+    "drugPricing": {
+      "name": "National Pharmaceutical Pricing Authority (NPPA)",
+      "url": "https://nppaindia.nic.in",
+      "source": "Department of Pharmaceuticals, Govt. of India",
+      "lastVerified": "2026-10-20"
+    },
+    "genericPharmacy": {
+      "name": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP)",
+      "url": "https://janaushadhi.gov.in",
+      "source": "Pharmaceuticals & Medical Devices Bureau of India (PMBI)",
+      "lastVerified": "2026-10-20"
+    },
+    "nationalHealthInsurance": {
+      "name": "Ayushman Bharat PM-JAY",
+      "url": "https://pmjay.gov.in",
+      "source": "National Health Authority",
+      "lastVerified": "2026-10-20"
+    },
+    "organDonationRegistry": {
+      "name": "National Organ and Tissue Transplant Organisation (NOTTO)",
+      "url": "https://notto.mohfw.gov.in",
+      "pledgeUrl": "https://notto.mohfw.gov.in/",
+      "source": "MoHFW Statutory Registry",
+      "lastVerified": "2026-10-20"
+    },
+    "bloodDonationRegistry": {
+      "name": "e-RaktKosh Blood Bank Management Portal",
+      "url": "https://eraktkosh.mohfw.gov.in",
+      "source": "MoHFW / C-DAC",
+      "lastVerified": "2026-10-20"
+    }
+  },
+  "US": {
+    "country": "United States",
+    "iso2": "US",
+    "iso3": "USA",
+    "phoneCode": "+1",
+    "emergency": {
+      "police": "911",
+      "ambulance": "911",
+      "mentalHealth": "988"
+    },
+    "healthMinistry": {
+      "name": "U.S. Department of Health and Human Services (HHS)",
+      "url": "https://www.hhs.gov",
+      "source": "U.S. Government Official Portal",
+      "lastVerified": "2026-10-20"
+    },
+    "publicHealthAgency": {
+      "name": "Centers for Disease Control and Prevention (CDC)",
+      "url": "https://www.cdc.gov",
+      "source": "CDC Official Portal",
+      "lastVerified": "2026-10-20"
+    },
+    "drugRegulator": {
+      "name": "U.S. Food and Drug Administration (FDA)",
+      "url": "https://www.fda.gov",
+      "source": "U.S. FDA Official Portal",
+      "lastVerified": "2026-10-20"
+    },
+    "organDonationRegistry": {
+      "name": "OrganDonor.gov",
+      "url": "https://www.organdonor.gov",
+      "pledgeUrl": "https://www.organdonor.gov/sign-up",
+      "source": "Health Resources and Services Administration (HRSA)",
+      "lastVerified": "2026-10-20"
+    },
+    "healthInformation": {
+      "name": "MedlinePlus (National Library of Medicine)",
+      "url": "https://medlineplus.gov",
+      "source": "NIH / NLM",
+      "lastVerified": "2026-10-20"
+    }
+  },
+  "GB": {
+    "country": "United Kingdom",
+    "iso2": "GB",
+    "iso3": "GBR",
+    "phoneCode": "+44",
+    "emergency": {
+      "police": "999",
+      "ambulance": "999",
+      "nonEmergencyMedical": "111"
+    },
+    "healthMinistry": {
+      "name": "National Health Service (NHS)",
+      "url": "https://www.nhs.uk",
+      "source": "NHS England / UK Government",
+      "lastVerified": "2026-10-20"
+    },
+    "organDonationRegistry": {
+      "name": "NHS Organ Donor Register",
+      "url": "https://www.organdonation.nhs.uk",
+      "pledgeUrl": "https://www.organdonation.nhs.uk/register-your-decision/",
+      "source": "NHS Blood and Transplant",
+      "lastVerified": "2026-10-20"
+    }
+  },
+  "CA": {
+    "country": "Canada",
+    "iso2": "CA",
+    "iso3": "CAN",
+    "phoneCode": "+1",
+    "emergency": {
+      "police": "911",
+      "ambulance": "911"
+    },
+    "healthMinistry": {
+      "name": "Health Canada / Sant\u00e9 Canada",
+      "url": "https://www.canada.ca/en/health-canada.html",
+      "source": "Government of Canada",
+      "lastVerified": "2026-10-20"
+    },
+    "bloodDonationRegistry": {
+      "name": "Canadian Blood Services",
+      "url": "https://www.blood.ca",
+      "source": "Canadian Blood Services Authority",
+      "lastVerified": "2026-10-20"
+    }
+  },
+  "AU": {
+    "country": "Australia",
+    "iso2": "AU",
+    "iso3": "AUS",
+    "phoneCode": "+61",
+    "emergency": {
+      "police": "000",
+      "ambulance": "000"
+    },
+    "healthMinistry": {
+      "name": "Australian Department of Health and Aged Care",
+      "url": "https://www.health.gov.au",
+      "source": "Australian Government",
+      "lastVerified": "2026-10-20"
+    },
+    "organDonationRegistry": {
+      "name": "DonateLife Australia",
+      "url": "https://www.donatelife.gov.au",
+      "pledgeUrl": "https://www.donatelife.gov.au/register-donor-today",
+      "source": "Organ and Tissue Authority (OTA)",
+      "lastVerified": "2026-10-20"
+    },
+    "bloodDonationRegistry": {
+      "name": "Australian Red Cross Lifeblood",
+      "url": "https://www.lifeblood.com.au",
+      "source": "Australian Red Cross Lifeblood",
+      "lastVerified": "2026-10-20"
+    }
+  },
+  "DE": {
+    "country": "Germany",
+    "iso2": "DE",
+    "iso3": "DEU",
+    "phoneCode": "+49",
+    "emergency": {
+      "police": "110",
+      "ambulance": "112"
+    },
+    "healthMinistry": {
+      "name": "Bundesministerium f\u00fcr Gesundheit (BMG)",
+      "url": "https://www.bundesgesundheitsministerium.de",
+      "source": "Bundesregierung Deutschland",
+      "lastVerified": "2026-10-20"
+    },
+    "organDonationRegistry": {
+      "name": "Organspende-Info (BZgA)",
+      "url": "https://www.organspende-info.de",
+      "pledgeUrl": "https://www.organspende-info.de/organspendeausweis-download-und-bestellen/",
+      "source": "Bundeszentrale f\u00fcr gesundheitliche Aufkl\u00e4rung",
+      "lastVerified": "2026-10-20"
+    }
+  },
+  "AE": {
+    "country": "United Arab Emirates",
+    "iso2": "AE",
+    "iso3": "ARE",
+    "phoneCode": "+971",
+    "emergency": {
+      "police": "999",
+      "ambulance": "998"
+    },
+    "healthMinistry": {
+      "name": "Ministry of Health and Prevention (MOHAP)",
+      "url": "https://mohap.gov.ae",
+      "source": "UAE Government Official Portal",
+      "lastVerified": "2026-10-20"
+    }
+  },
+  "SG": {
+    "country": "Singapore",
+    "iso2": "SG",
+    "iso3": "SGP",
+    "phoneCode": "+65",
+    "emergency": {
+      "police": "999",
+      "ambulance": "995"
+    },
+    "healthMinistry": {
+      "name": "Ministry of Health Singapore (MOH)",
+      "url": "https://www.moh.gov.sg",
+      "source": "Government of Singapore",
+      "lastVerified": "2026-10-20"
+    }
+  },
+  "MY": {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "iso3": "MYS",
+    "phoneCode": "+60",
+    "emergency": {
+      "police": "999",
+      "ambulance": "999"
+    },
+    "healthMinistry": {
+      "name": "Kementerian Kesihatan Malaysia (MOH Malaysia)",
+      "url": "https://www.moh.gov.my",
+      "source": "Government of Malaysia",
+      "lastVerified": "2026-10-20"
+    }
+  }
+}
